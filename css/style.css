@@ -1,0 +1,110 @@
+body{
+	margin:2%;
+	font-size:16px;
+}
+
+h1{
+	color: rgb(83, 41, 83);
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+    text-align: left;
+    padding: 15px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2;
+}
+
+a{
+    color:red;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+    
+}
+a:hover{
+    background-color: grey;
+    color:white;
+    
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 35%;
+    padding: 5px;
+    border-radius: 45px;
+    border:5px solid black
+}
+
+img:hover{
+  display: block;
+    margin: auto;
+    width: 45%;
+    padding: 5px;
+    border-radius: 45px;
+    border:5px solid black
+}
+
+h2{
+    color: rgb(39, 39, 116);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif
+}
+/* i copied below from W3 ------------------------------------------------------*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+  li {
+    float: right;
+  }
+  .active{ 
+    background-color: grey;
+    
+    /* border: 4px dotted white */
+  
+  }
+  /* .active li > a{
+    color:#111111
+  } */
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }
+
+
+
+  dl dt{
+    color:rgb(8, 8, 40);
+    font-size: larger;
+    margin-left: 50px;
+  }
+
+/* table, th, td {
+  border:1px solid black;
+} */
+
+#skip{
+  position: absolute;
+  left:-10000px
+}
+.skip:focus{
+  left:0px
+}
