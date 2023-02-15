@@ -17,10 +17,10 @@ p{
 }
 
 a{
-    color:red;
+    color:rgb(5, 79, 23);
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
+    text-decoration: underline;
 
     
 }
@@ -75,13 +75,9 @@ nav ul {
     text-decoration-style: wavy;
     text-decoration-color: white;
     text-underline-offset: 7px;
-  
   }
   
-  }
-  /* .active li > a{
-    color:#111111
-  } */
+
   li a {
     display: block;
     color: white;
