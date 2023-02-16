@@ -43,9 +43,6 @@ main img:nth-of-type(2n){
   background-color: blue;
 } 
 
-img:nth-child(even){
-  background-color: blue;
-} 
 
 img:hover{
   display: block;
